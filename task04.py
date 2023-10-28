@@ -26,3 +26,17 @@ class Volume:
 z = Volume()
 z.calculate(10,20)
 
+# or
+
+class volume:
+        def calculate01(self):
+                f = 9
+                g = 7
+                h = f * g 
+                print("volume is ",h)
+
+x = volume()
+x.calculate01()
+
+
+
